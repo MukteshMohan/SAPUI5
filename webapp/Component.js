@@ -19,9 +19,8 @@ sap.ui.define([
 			UIComponent.prototype.init.apply(this, arguments);
 
 			// enable routing
-		//	this.getRouter().initialize();
+			this.getRouter().initialize();
 
-		
 		}
 	});
 });

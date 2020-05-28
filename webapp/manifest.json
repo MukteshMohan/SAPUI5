@@ -28,7 +28,9 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": ["sap_bluecrystal"]
+		"supportedThemes": [
+			"sap_bluecrystal"
+		]
 	},
 	"sap.ui5": {
 		"_version": "1.2.0",
@@ -62,8 +64,8 @@
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "model/HelloPanel.json"
 			},
-			"" : {
-			"dataSource": "ES5"
+			"": {
+				"dataSource": "ES5"
 			},
 			"address": {
 				"type": "sap.ui.model.json.JSONModel",
@@ -76,5 +78,9 @@
 				}
 			}
 		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
 	}
 }
